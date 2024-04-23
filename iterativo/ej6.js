@@ -1,10 +1,36 @@
 const leer = require("prompt-sync")();
 
-const NUMERO_SECRETO = (7);
 
-let numeroAdivinar= leer();
 
-if(numeroAdivinar=0 , numeroAdivinar<3 ,NUMERO_SECRETO ==numeroAdivinar){
-    console.log("adivinaste");
-}else{"Perdiste"}
+const NUMERO_SECRETO = 7
 
+for(let numerosIngresados= 0 ; numerosIngresados<10 ; numerosIngresados++){
+     if(numerosIngresados==NUMERO_SECRETO) {
+        console.log("ganaste");
+     }else{
+        console.log("perdiste");
+     }}
+
+    
+
+
+
+
+    
+        
+
+
+    
+
+
+
+
+
+
+
+     
+ 
+   
+
+
+   
